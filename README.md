@@ -6,7 +6,7 @@
 
 
 ## General Info
-This project is Data Ingestion of Guided Capstone project
+This project is Data Ingestion step of Guided Capstone project
 
 ## Description
 Spring Capital data sources come from stock exchange daily submissions files in a semi-structured text format. This means
