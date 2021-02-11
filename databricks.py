@@ -1,6 +1,6 @@
-storageAccountName = "storageyogid"
-storageAccountAccessKey = "/NCFnqJlD0ZcOAgNEf1tr3ff3BXlEgHJ85Xx/QAUsg9nxnXv/tRSK5WgDyjJXhaIBWOndqTMsapk+U02QVxO2w=="
-blobContainerName = "guidedstorage"
+storageAccountName = '<storageAccountName>'
+storageAccountAccessKey = '<storageAccountAccessKey>'
+blobContainerName = '<blobContainerName>'
 
 
 if not any(mount.mountPoint == '/mnt/FileStore/MountFolder/' for mount in dbutils.fs.mounts()):

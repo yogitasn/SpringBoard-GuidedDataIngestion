@@ -33,7 +33,31 @@ Perform the following steps
 azcopy copy "C:/SpringBoard-DE-Projects/Step 2 - Data Ingestion/data/" "https://ingestresourcegrp.blob.core.windows.net/springcapital" --recursive=true
 
 ```
+* Pass the storage account name,container name and storage account access key in 'databricks.py'
+```
+storageAccountName = '<storageAccountName>'
+storageAccountAccessKey = '<storageAccountAccessKey>'
+blobContainerName = '<blobContainerName>'
+
+```
 
 * Create a Databricks cluster and notebook and run the code in files 'databricks.py','parse_csv.py' and 'parse_json.py'
 
 The detailed steps and screenshots are in the document 'Guided Capstone Data Ingestion.docx'
+
+
+* CSV Records before parsing
+
+![Alt text](screenshot/raw_csv_records.PNG?raw=true "CSVBeforeParse")
+
+* CSV Records after parsing
+
+![Alt text](screenshot/parsed_csv_records.PNG?raw=true "CSVAfterParse")
+
+* JSON Records before parsing
+
+![Alt text](screenshot/raw_json_records.PNG?raw=true "JSONBeforeParse")
+
+* JSON Records after parsing
+
+![Alt text](screenshot/parsed_json_records.PNG?raw=true "JSONAfterParse")
