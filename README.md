@@ -48,16 +48,16 @@ The detailed steps and screenshots are in the document 'Guided Capstone Data Ing
 
 * CSV Records before parsing
 
-![Alt text](screenshot/raw_csv_records.PNG?raw=true "CSVBeforeParse")
+![Alt text](Screenshot/raw_csv_records.PNG?raw=true "CSVBeforeParse")
 
 * CSV Records after parsing
 
-![Alt text](screenshot/parsed_csv_records.PNG?raw=true "CSVAfterParse")
+![Alt text](Screenshot/parsed_csv_records.PNG?raw=true "CSVAfterParse")
 
 * JSON Records before parsing
 
-![Alt text](screenshot/raw_json_records.PNG?raw=true "JSONBeforeParse")
+![Alt text](Screenshot/raw_json_records.PNG?raw=true "JSONBeforeParse")
 
 * JSON Records after parsing
 
-![Alt text](screenshot/parsed_json_records.PNG?raw=true "JSONAfterParse")
+![Alt text](Screenshot/parsed_json_records.PNG?raw=true "JSONAfterParse")
