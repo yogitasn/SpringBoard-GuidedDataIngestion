@@ -70,7 +70,7 @@ spark = SparkSession.builder.master('local').\
 
 
 raw = spark.sparkContext.\
-           textFile("dbfs:/mnt/FileStore/MountFolder/data/csv/2020-08-05/NYSE/*.txt")
+           textFile("dbfs:/mnt/FileStore/MountFolder/data/csv/*/NYSE/*.txt")
 
 # Parse the text file and parse using the parse_csv function to get the rdd in proper format. 
 parsed = raw.map(lambda line: parse_csv(line))

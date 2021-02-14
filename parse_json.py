@@ -68,7 +68,7 @@ common_event = StructType() \
               .add("partition",StringType(),True)
 
 
-raw = spark.sparkContext.textFile("dbfs:/mnt/FileStore/MountFolder/data/json/2020-08-05/NASDAQ/*.txt")
+raw = spark.sparkContext.textFile("dbfs:/mnt/FileStore/MountFolder/data/json/*/NASDAQ/*.txt")
 parsed = raw.map(lambda line: parse_json(line))
 data_json = spark.createDataFrame(parsed,schema=common_event)
 
